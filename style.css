@@ -1,0 +1,259 @@
+/* 
+    Aaref Awad
+    041099060
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: left;
+}
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgb(156, 110, 110), #d89f2e);
+}
+#resume-body{
+    height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Header section*/
+#header-nav{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    height: 17%;
+}
+
+.link-logo{
+    border: none solid 0px;
+    padding: 0px;
+    border-radius: 100%;
+}
+.link-logo:hover{
+    background-color:rgb(181, 181, 181);
+}
+
+/* paragraph is 1rem */
+.nav-links{
+    display: flex;
+    gap: 2rem; 
+    list-style: none;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.nav-links a{
+    transition: all 300ms ease;
+    text-decoration: none;
+    color: black;
+    text-decoration-color: white;
+}
+.link-logo{
+    height: 40px;
+    width: 40px;
+}
+.nav-links a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+.nav-logo{
+    font-size: 2.5rem;
+}
+.nav-logo:hover{
+    cursor: default;
+}
+
+
+
+
+/* Home main section */
+#main-home{
+    display: flex;
+    margin-left: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    height: 80%;
+}
+#profile-div{
+    border-right: white solid 1rem;
+    border-radius: 9%;
+    padding-right: 0.1rem;
+    margin-right: 2rem;
+}
+#profile-picture{
+    border-radius: 2rem;
+}
+#description-div{
+    margin-bottom: 10rem;
+}
+#description-div p{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+/* Resume main section */
+.resume-section{
+    border: none solid 1px;
+    background-color: rgb(151, 151, 151, 0.3);
+    border-radius: 2rem;
+    padding: 2rem;
+    padding-top: 0;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+#resume-header{
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#get-resume{
+    width: 50%;
+    margin: auto;
+    margin-top: 1.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#get-resume a{
+    transition: all 300ms ease;
+    text-decoration: none;
+    color: black;
+    text-decoration-color: white;
+    font-size: 1.5rem;
+    border: none solid 1px;
+    background-color: rgb(151, 151, 151, 0.3);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+#get-resume a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+.des{
+    margin-top: 2rem;
+}
+
+
+
+
+/* Projects main section */
+#main-projects{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+#div-projects{
+    border: none solid 1px;
+    background-color: rgb(151, 151, 151, 0.3);
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 80%;
+}
+.project-slid {
+    display: none;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.child-slide {
+    width: 50%;
+    height: 60vh;
+}
+.button-slide{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 10%;
+    background: none;
+}
+#next-button{
+    background: none;
+    border: none;
+}
+#next-button:hover{
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 100%;
+    background-color:rgb(181, 181, 181);
+}
+#previous-button{
+    background: none;
+    border: none;
+}
+#previous-button:hover{
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 100%;
+    background-color:rgb(181, 181, 181);
+}
+.project-image{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+}
+
+
+
+
+
+
+/* Contact main section */
+#main-contact{
+    margin-top: 6rem;
+}
+#contact-form{
+    border: none solid 1px;
+    background-color: rgb(151, 151, 151, 0.3);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.textbox{
+    border: none solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+#contact-submit{
+    border: none solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+
